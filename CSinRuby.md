@@ -8,7 +8,7 @@ a. number_to_square = gets
 
 b. base = gets
     exponent = gets
-    result = base * exponent 
+    result = base * u
     
 2) 
 
@@ -18,7 +18,7 @@ for (n = 1, n <= 100; counter++)
 if (n == 1)
 	n =+ n;
 else 
-	n =+ n - 1 
+	n =+ n + 1 
 
 b. 
 
@@ -32,7 +32,7 @@ b.
 if (opening)
 	enter opening
 if (wall) 
- 	left!wall ?  turn left and go : turn right and go
+ 	left !wall ?  turn left and go : turn right and go
   
 
 5) 
@@ -44,3 +44,37 @@ b. If change due (C) is more than or equal to a dollar, give the customer one do
 6)
 
 The engineer's algorithm "exits prematurely." As long as all the houses are connected, the engineer's algorithm exits, meaning that there is a chance the algorithm will connect all the houses and stop looking before the cheapest route has been found. 
+
+## Chapter 2 Exercises
+
+1) Write 208 in binary and in ternary 
+
+	128-64-32-16 8-4-2-1 	
+Binary: 1101 0000 
+
+	2187-729-243-81   27-9-3-1
+Ternary: 
+
+2) 
+
+
+
+3) 9, 511, 056 bytes
+
+1 Gigabyte; or closer to 10 megabytes 
+
+4) 
+
+Rate of transfer = 1 000 000 bits per second 
+
+720 * 600 pixels = 2160 * 1800 bytes = 3 888 000 bytes = 31 104 000 bits 
+
+Transferring a single frame would take thirty seconds. 
+
+31 104 000 * 25 = 777 600 000 bits per second 
+
+778 seconds 
+
+There's no way someone is going to be able to stream this movie without experiencing jittery playback. In fact, there wouldn't be much playback to speak of. 
+
+
