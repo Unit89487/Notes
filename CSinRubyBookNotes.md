@@ -35,11 +35,17 @@ Data types indicate the nature of the variable and the range of valid values for
 
 ##### Chapter 3 Exercises 
 1) integer + integer; float + integer; string + string; 
+
 2) They are the same if the parantheses do not override the order of operations. 
+
 3) In the first code snippet (1.0 * 5 / 2), the order of operations converts five to a float and then divides it by two. In the second snippet (5 / 2 * 1.0), five is divided by two, and the quotient is then converted a float. 
+
 4) a: 4  b: 4.5
+
 5) a: 1.5  b: 2
+
 6) This line of code has not placed the variables to be added in parantheses. The result is a divsion of the final variable by 4, and the results addition to the other three variables. The solution is to place the four variables to be added in parantheses, overriding the order of operations' insistence on dividing first. 
+
 7) Logic errors are errors in the programs logical construction. An example would be placing an instruction for a program to repeat itself in such a place that it reinitializes relevant variables before the program has had a chance to use them as input for another step. Another example would be instructing a for-loop to repeat itself in a range that ultimately proves too limited to complete a given task. Syntax errors are errors where a programming language's keyword has been misstyped, i.e. "put" instead of "puts" in Ruby. Or declaring a chain of variables using a colon instead of a semi-colon. 
 
 
