@@ -55,8 +55,11 @@ Binary: 1101 0000
 	2187-729-243-81   27-9-3-1
 Ternary: 
 
-2) 
 
+2
+2) 
+1000 0001 = 129
+129 in octal is 101. 
 
 
 3) 9, 511, 056 bytes
@@ -69,12 +72,34 @@ Rate of transfer = 1 000 000 bits per second
 
 720 * 600 pixels = 2160 * 1800 bytes = 3 888 000 bytes = 31 104 000 bits 
 
-Transferring a single frame would take thirty seconds. 
+Transferring a single frame would take thirty two seconds. 
 
-31 104 000 * 25 = 777 600 000 bits per second 
+25 * 32 = 
 
 778 seconds 
+
+
+90 minutes = 3600 seconds  
 
 There's no way someone is going to be able to stream this movie without experiencing jittery playback. In fact, there wouldn't be much playback to speak of. 
 
 
+0 rem !to "build/for-loops.prg"
+10 for i=5 to 20 step 5
+13 print i
+15 for j=200 to 205 step 1
+20 print "  ";j
+21 for k=1 to 2
+22 print "    ";k
+23 next k
+25 next j
+30 next i
+
+
+
+
+0 rem !to "build/for-loops.prg"
+10 s=1024
+20 for i = 0 to 39
+30 poke s+i,81
+40 next i
